@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website designing -K2inofocom</title>
+    <!---external css ---->
+    <link rel="stylesheet" href="style.css">
+    <!---font awesome cdn for font icons---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+   <div class="container">
+       <div class="profile-card"> 
+            <div class="profile-pic">
+                <img style="width: 200px;" src="images\NikaImage.jpg" alt="user avatar">
+            </div>
+
+            <div class="profile-details">
+                 <div class="intro">
+                    <h2>Po Nika</h2>
+                    <h4>Skincare Consultant</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/share/Vo6gWWerWLRvXN3w/?mibextid=LQQJ4d"><i class="fab fa-facebook" style="color:var(--blue)"></i></a>
+                        <a href="https://t.me/ka_Sure"><i class="fab fa-telegram"  style="color:var(--skyblue)"></i></a>
+                        <a href="https://www.tiktok.com/@jennicaskin"><i class="fab fa-tiktok"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+                 </div>
+
+                 <div class="contact-info">
+                    <div class="row">
+                         <div class="icon">
+                            <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
+                         </div>
+                         <div class="content">
+                            <span>Phone</span>
+                            <h5>015 938 226</h5>
+                         </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="icon">
+                           <i class="fa fa-envelope-open"  style="color:var(--light-green)"></i>
+                        </div>
+                        <div class="content">
+                           <span>Email</span>
+                           <h5>nikapo213@gmail.com</h5>
+                        </div>
+                   </div>
+                   
+    
+                   <div class="row">
+                    <div class="icon">
+                       <i class="fa fa-map-marker"  style="color:var(--light-purple)"></i>
+                    </div>
+                    <div class="content">
+                       <span>Location</span>
+                       <h5>Samraong Kraom,Phnom Penh</h5>
+                    </div>
+                 </div>
+
+            </div>
+               <a href="CV\PoNika.pdf"   download class="download-btn" >
+                  <i class="fa fa-download"></i> Download CV
+               </a>
+            </div>
+       </div>
+
+       <!----about section ----->
+       <div class="about">
+           <h1>About Me</h1>
+
+           <p> I am a third-year student at ACLEDA UNIVERSITY OF BUSINESS, majoring in Fintech, with three years of experience as a customer, 
+            specializing in solving customer skincare concerns. My experience has equipped me with strong problem-solving, communication,
+             and customer service skills, allowing me to provide personalized skincare recommendations and ensure customer satisfaction.
+          </p>
+
+          
+          <h2>What I Do !!!</h2>
+          <div class="work">
+             <div class="workbox">
+                 <div class="icon">
+                    <img style="width: 50px;" src="images\cream-beauty-svgrepo-com.svg" alt="">
+                 </div>
+                 <div class="desc">
+                    <h3>Skincare Consultant</h3>
+                    <p>Providing personalized solutions to address and improve customers' skin concerns,helping them achieve healthier, glowing skin.</p>
+                 </div>
+             </div>
+
+             <div class="workbox">
+                <div class="icon">
+                   <img style="width: 60px;" src="images\cashier-payment-ecommerce-svgrepo-com.svg" alt="">
+                </div>
+                <div class="desc">
+                   <h3>Cashier</h3>
+                   <p>I have experience in handling cash transactions, ensuring accurate and efficient processing while providing excellent customer service.</p>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="icon">
+                   <img style="width: 50px;" src="images\product-shelf-svgrepo-com.svg" alt="">
+                </div>
+                <div class="desc">
+                   <h3>Stock Controller</h3>
+                   <p>I have experience as a stock controller and a solid understanding of inventory management, 
+                     ensuring accurate stock levels and efficient product handling</p>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="icon">
+                   <img style="width: 50px;" src="images\customer-service-svgrepo-com.svg" alt="">
+                </div>
+                <div class="desc">
+                   <h3>Customer Service</h3>
+                   <p>I have experience in customer service with strong communication skills,
+                      focusing on providing assistance and resolving customer inquiries effectively.</p>
+                </div>
+            </div>
+          </div>
+       </div>
+       
+   </div>
+</body>
+</html>
+<script>
+   function downloadCV() {
+     const link = document.createElement('a');
+     link.href = 'CV\PoNika.pdf';  // Replace with the actual path to your CV
+     link.download = 'CV.pdf';           // The name that will appear for the downloaded file
+     document.body.appendChild(link);  
+    link.click();
+    document.body.removeChild(link); 
+   }
+ </script>
