@@ -15,13 +15,13 @@
    <div class="container">
        <div class="profile-card"> 
             <div class="profile-pic">
-                <img style="width: 200px;" src="images\NikaImage.jpg" alt="user avatar">
+                <img style="width: 200px;" src="images\Tongsure.JPG" alt="user avatar">
             </div>
 
             <div class="profile-details">
                  <div class="intro">
-                    <h2>Po Nika</h2>
-                    <h4>Skincare Consultant & Content Writer</h4>
+                    <h2>Chrea Tongsure</h2>
+                    <h4>Backend Developer & DevOps</h4>
                     <div class="social">
                         <a href="https://www.facebook.com/share/Vo6gWWerWLRvXN3w/?mibextid=LQQJ4d"><i class="fab fa-facebook" style="color:var(--blue)"></i></a>
                         <a href="https://t.me/ka_Sure"><i class="fab fa-telegram"  style="color:var(--skyblue)"></i></a>
@@ -37,7 +37,7 @@
                          </div>
                          <div class="content">
                             <span>Phone</span>
-                            <h5>015 938 226</h5>
+                            <h5>0968932176</h5>
                          </div>
                     </div>
 
@@ -47,7 +47,7 @@
                         </div>
                         <div class="content">
                            <span>Email</span>
-                           <h5><portal></portal>ponika5165@gmail.com</h5>
+                           <h5><portal></portal>Tongsure45@gmail.com</h5>
                         </div>
                    </div>
                    
@@ -58,7 +58,7 @@
                     </div>
                     <div class="content">
                        <span>Location</span>
-                       <h5>Samraong Kraom,Phnom Penh</h5>
+                       <h5>Phnom penh ,Russey keo ,kilo 5</h5>
                     </div>
                  </div>
 
@@ -73,10 +73,7 @@
        <div class="about">
            <h1>About Me</h1>
 
-           <p> I’m a third-year Fintech student at ACLEDA University of Business with three years of experience as a skincare consultant.
-              My background has equipped me with strong communication, problem-solving, and customer service skills. 
-              Combined with my abilities in content writing and video production, I create engaging skincare content that educates and connects with audiences. 
-              I’m passionate about helping others achieve healthy skin and excited to contribute creative value to your team as a Content Creator.
+           <p> I’m a third-year Fintech student at ACLEDA University of Business with professional experience as a Backend Developer and DevOps engineer. I have strong technical skills in backend development, system automation, deployment, and infrastructure management. My background has equipped me with problem-solving abilities and a solid understanding of software development lifecycles. I’m passionate about building efficient, reliable systems and excited to contribute my expertise to your team.
 
           </p>
 
@@ -85,11 +82,11 @@
           <div class="work">
              <div class="workbox">
                  <div class="icon">
-                    <img style="width: 50px;" src="images\cream-beauty-svgrepo-com.svg" alt="">
+                    <img style="width: 50px;" src="images\devops.png" alt="">
                  </div>
                  <div class="desc">
-                    <h3>Skincare Consultant</h3>
-                    <p>Providing personalized solutions to address and improve customers' skin concerns,helping them achieve healthier, glowing skin.</p>
+                    <h3>DevOps</h3>
+                    <p>I’m a DevOps engineer skilled in automating deployments, managing infrastructure, and improving system reliability through continuous integration and delivery. I focus on optimizing workflows and ensuring smooth operations.</p>
                  </div>
              </div>
 
@@ -98,12 +95,12 @@
                    <img style="width: 60px;" src="images\ContentWriter.svg" alt="">
                 </div>
                 <div class="desc">
-                   <h3>Content Writer</h3>
-                   <p>I have experience in content writing, creating engaging and informative skincare content that reflects real customer needs and product knowledge.</p>
+                   <h3>Backend Developer</h3>
+                   <p>I’m a Backend Developer experienced in building and maintaining scalable server-side applications, writing efficient code, and ensuring reliable system performance.</p>
                 </div>
             </div>
 
-            <div class="workbox">
+            <!-- <div class="workbox">
                 <div class="icon">
                    <img style="width: 50px;" src="images\product-shelf-svgrepo-com.svg" alt="">
                 </div>
@@ -123,14 +120,14 @@
                    <p>I have experience in customer service with strong communication skills,
                       focusing on providing assistance and resolving customer inquiries effectively.</p>
                 </div>
-            </div>
+            </div> -->
           </div>
        </div>
        
    </div>
 </body>
 </html>
-<script>
+<!-- <script>
    function downloadCV() {
      const link = document.createElement('a');
      link.href = 'CV\PoNika.pdf';  // Replace with the actual path to your CV
@@ -139,4 +136,4 @@
     link.click();
     document.body.removeChild(link); 
    }
- </script>
+ </script> -->
