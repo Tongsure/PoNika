@@ -36,7 +36,7 @@
                             <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
                          </div>
                          <div class="content">
-                            <span>Phone</span>
+                            <span>Phone </span>
                             <h5>0977425667</h5>
                          </div>
                     </div>
